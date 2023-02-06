@@ -4,7 +4,7 @@ With Next JS Host Application and React JS Remote Application
 
 ## Target Ports
 
-React App (Remote) : localhost:3000
+React App (Remote) : localhost:3000<br>
 Next App (Host) : localhost:3500
 
 

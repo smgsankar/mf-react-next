@@ -1,0 +1,19 @@
+{
+  "name": "mf-react-next",
+  "version": "1.0.0",
+  "description": "Testing module federation",
+  "private": true,
+  "scripts": {
+    "install": "concurrently \"cd react-app && npm install\" \"cd next-app && npm install\"",
+    "start": "concurrently \"cd react-app && npm run dev\" \"cd next-app && npm run dev\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smgsankar/mf-react-next.git"
+  },
+  "author": "smgsankar",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
